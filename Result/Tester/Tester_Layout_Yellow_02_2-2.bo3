@@ -1,0 +1,66 @@
+#######################################################################
+# |                            BO3 object                           | #
+#######################################################################
+
+# This is the config file of a custom object.
+# If you add this object correctly to your BiomeConfigs, it will spawn in the world.
+
+# This is the creator of this BO3 object
+Author: Bo3_Layouter by LanToaster
+
+# A short description of this BO3 object
+Description: This Object was created by LanToasters BO3 Layout Creator
+
+# The BO3 version, don't change this! It can be used by external applications to do a version check.
+Version: 3
+
+# The settings mode, WriteAll, WriteWithoutComments or WriteDisable. See WorldConfig.
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# |                          Main settings                          | #
+#######################################################################
+
+# This needs to be set to true to spawn the object in the Tree and Sapling resources.
+Tree: false
+
+# The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
+# Ignored by Tree(..), Sapling(..) and CustomStructure(..)
+Frequency: 1
+
+# The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
+# Ignored by Tree(..), Sapling(..) and CustomStructure(..)
+Rarity: 100.0
+
+# If you set this to true, the BO3 will be placed with a random rotation.
+RotateRandomly: false
+
+# The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
+SpawnHeight: highestBlock
+
+# The height limits for the BO3.
+MinHeight: 0
+
+MaxHeight: 256
+
+# Objects can have other objects attacthed to it: branches. Branches can also
+# have branches attached to it, which can also have branches, etc. This is the
+# maximum branch depth for this objects.
+MaxBranchDepth: 10
+
+# When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
+# If you writer.write the BO3 name directly in the BiomeConfigs, this will be ignored.
+ExcludedBiomes: All
+#######################################################################
+# |                             Branches                            | #
+#######################################################################
+# Branch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][IndividualChance])
+# WeightedBranch(x,y,z,branchName,rotation,chance[,anotherBranchName,rotation,chance[,...]][MaxChanceOutOf])
+Branch(9,0,0,Tester_Plot_Path_N_07x07,EAST,100)
+Branch(9,0,7,Tester_Plot_Room_07x07,EAST,100)
+Branch(2,0,7,Tester_Plot_Path_WE_07x07,SOUTH,100)
+Branch(2,0,0,Tester_Plot_Path_NWE_07x07,NORTH,100)
+Branch(-16,0,0,Tester_Layout_Yellow_02_1-2,NORTH,100)
+Branch(-16,0,16,Tester_Layout_Yellow_02_1-3,NORTH,100)
+Branch(-16,0,-16,Tester_Layout_Yellow_02_1-1,NORTH,100)

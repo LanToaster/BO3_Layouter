@@ -1,0 +1,33 @@
+############################
+###Layouter StructureFile###
+### --- Version 0.05 --- ###
+############################
+StructName:Tester
+Size:5
+Scale:8
+Center_X:40
+Center_Y:40
+Distance:16
+############################
+[0]0,0,Path_NWE_07x07,NORTH,Green|0,7,Path_N_07x07,NORTH,Green|0,14,Path_NWE_07x07,NORTH,Green|7,14,Path_N_07x07,EAST,Green|-7,14,Path_N_07x07,EAST,Green
+[0]14,14,Room_07x07,EAST,Green|-14,14,Room_07x07,WEST,Green|0,21,Room_07x07,SOUTH,Green|0,-7,Path_N_07x07,NORTH,Blue|0,-14,Path_N_07x07,NORTH,Blue
+[0]0,-21,Room_07x07,NORTH,Blue|7,0,Path_N_07x07,EAST,Red|14,0,Path_N_07x07,EAST,Red|21,0,Path_WE_07x07,SOUTH,Red|21,-7,Room_07x07,NORTH,Red
+[0]28,0,Room_07x07,EAST,Red|-7,0,Path_N_07x07,EAST,Yellow|-14,0,Path_N_07x07,EAST,Yellow|-21,0,Path_NWE_07x07,NORTH,Yellow|-21,-7,Path_N_07x07,NORTH,Yellow
+[0]-21,7,Path_N_07x07,NORTH,Yellow|-28,0,Room_07x07,WEST,Yellow|-21,14,Room_07x07,SOUTH,Yellow|-21,-14,Room_07x07,NORTH,Yellow
+[1]0,0,Path_NWE_07x07,NORTH,Green|0,7,Path_N_07x07,NORTH,Green|0,14,Room_07x07,SOUTH,Green|7,0,Path_NWE_07x07,NORTH,Red|7,7,Path_E_07x07,WEST,Red
+[1]14,7,Room_07x07,EAST,Red|14,0,Path_E_07x07,SOUTH,Red|7,-7,Path_E_07x07,NORTH,Red|14,-7,Path_E_07x07,EAST,Red|-7,0,Path_N_07x07,EAST,Yellow
+[1]-14,0,Path_WE_07x07,WEST,Yellow|-14,-7,Path_E_07x07,NORTH,Yellow|-14,7,Path_E_07x07,SOUTH,Yellow|-21,7,Path_WE_07x07,SOUTH,Yellow|-21,0,Room_07x07,NORTH,Yellow
+[1]-28,7,Room_07x07,WEST,Yellow|-7,-7,Room_07x07,EAST,Yellow|0,-7,Path_N_07x07,NORTH,Blue|0,-14,Path_NWE_07x07,NORTH,Blue|7,-14,Path_E_07x07,SOUTH,Blue
+[1]-7,-14,Path_E_07x07,WEST,Blue|7,-21,Room_07x07,NORTH,Blue|-7,-21,Room_07x07,NORTH,Blue|0,-21,Room_07x07,NORTH,Blue
+[2]0,0,Path_NWE_07x07,NORTH,Green|0,7,Path_N_07x07,NORTH,Green|0,14,Path_WE_07x07,SOUTH,Green|7,14,Path_E_07x07,EAST,Green|-7,14,Path_E_07x07,NORTH,Green
+[2]-7,21,Path_WE_07x07,SOUTH,Green|0,21,Room_07x07,EAST,Green|-14,21,Room_07x07,WEST,Green|7,21,Path_N_07x07,NORTH,Green|7,28,Path_WE_07x07,SOUTH,Green
+[2]0,28,Room_07x07,WEST,Green|14,28,Room_07x07,EAST,Green|0,-7,Path_N_07x07,NORTH,Blue|0,-14,Path_WE_07x07,NORTH,Blue|7,-14,Path_E_07x07,SOUTH,Blue
+[2]7,-21,Path_E_07x07,NORTH,Blue|-7,-14,Path_E_07x07,WEST,Blue|-7,-21,Path_NWE_07x07,NORTH,Blue|-7,-28,Room_07x07,NORTH,Blue|0,-21,Room_07x07,EAST,Blue
+[2]-14,-21,Room_07x07,WEST,Blue|14,-21,Path_WE_07x07,EAST,Blue|14,-28,Room_07x07,NORTH,Blue|14,-14,Room_07x07,SOUTH,Blue|7,0,Path_N_07x07,EAST,Red
+[2]7,-7,Room_07x07,WEST,Red|7,7,Room_07x07,WEST,Red|14,7,Path_N_07x07,EAST,Red|21,7,Path_N_07x07,EAST,Red|28,7,Path_WE_07x07,EAST,Red
+[2]28,14,Room_07x07,SOUTH,Red|21,0,Path_E_07x07,WEST,Red|28,0,Path_WE_07x07,NORTH,Red|35,0,Room_07x07,EAST,Red|14,0,Path_E_07x07,SOUTH,Red
+[2]14,-7,Path_WE_07x07,NORTH,Red|21,-7,Path_WE_07x07,NORTH,Red|28,-7,Room_07x07,EAST,Red|-7,0,Path_N_07x07,EAST,Yellow|-7,7,Room_07x07,EAST,Yellow
+[2]-14,7,Path_WE_07x07,SOUTH,Yellow|-14,0,Path_NWE_07x07,NORTH,Yellow|-14,-7,Room_07x07,NORTH,Yellow|-21,7,Path_N_07x07,EAST,Yellow|-28,7,Path_E_07x07,NORTH,Yellow
+[2]-28,14,Path_WE_07x07,WEST,Yellow|-21,14,Room_07x07,EAST,Yellow|-28,21,Path_WE_07x07,SOUTH,Yellow|-21,21,Room_07x07,EAST,Yellow|-35,21,Room_07x07,WEST,Yellow
+[2]-21,0,Path_N_07x07,EAST,Yellow|-28,0,Path_E_07x07,WEST,Yellow|-28,-7,Path_NWE_07x07,NORTH,Yellow|-21,-7,Room_07x07,EAST,Yellow|-28,-14,Room_07x07,NORTH,Yellow
+[2]-35,-7,Room_07x07,WEST,Yellow
